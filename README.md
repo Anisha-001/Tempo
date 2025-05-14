@@ -1,4 +1,38 @@
 # Tempo
+
+
+
+
+**Tempo** is a web-based platform designed to provide bike riding services for beginners, casual riders, and racing enthusiasts. Whether you're new to biking or looking to train for your next race, Tempo offers the resources and training support you need.
+
+## 🌟 Features
+
+- 🚲 **Bike Ride Services** for:
+  - Beginners
+  - Casual Riders
+  - Racing Aspirants
+- 🏁 **Training Programs** for aspiring bikers and racers
+- 🌐 Built using:
+  - HTML
+  - CSS
+  - JavaScript
+
+## 🔧 Technologies Used
+
+- **HTML5**: Structure and layout
+- **CSS3**: Styling and responsive design
+- **JavaScript**: Interactivity and dynamic content
+
+## 📁 Project Structure
+
+
+
+
+
+
+
+
+
 <h1>website link </h1>
 https://polite-kheer-6469d0.netlify.app/
 
