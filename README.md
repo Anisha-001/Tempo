@@ -23,9 +23,16 @@
 - **CSS3**: Styling and responsive design
 - **JavaScript**: Interactivity and dynamic content
 
-## 📁 Project Structure
 
 
+## **📌 Future Plans**
+Add user registration and login
+
+Integrate location-based ride suggestions
+
+Offer personalized training schedules
+
+Mobile app version
 
 
 
