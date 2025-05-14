@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+</head>
+
+<body>
+
+    <header id="header" class="header flex-row align-item-center fixed-top wrap">
+        <div class="nav-section flex-row align-item-center justify-content-between wrap">
+
+            <div class="logo Nutino-font">
+                <h1>Tempo</h1>
+
+            </div>
+            <nav>
+                <ul class="  nav-section flex-row align-item-center justify-content-between poppins-font">
+                    <li><a href="#">Home</a> </li>
+                    <li> <a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li class="dropdown"><a href="#">Dropdown</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="slider/slider-1.jpg" alt="Image 1" /></div>
+                <div class="swiper-slide"><img src="slider/slider-2.jpg" alt="Image 2" /></div>
+                <div class="swiper-slide"><img src="slider/slider-3.jpg" alt="Image 3" /></div>
+            </div>
+
+            <div class="hero-text">
+                <span class="Nutino-font">Welcome to <strong>Tempo</strong></span>
+                <p class="roboto-font">WE'RE CREATIVE AGENCY</p>
+                <p class="roboto-font">We're a team of talented designers making websites with bootstrap</p>
+
+                <div class="btn">
+                    <button class="btn-1 roboto-font">Get Started</button>
+                </div>
+            </div>
+        </div>
+        <section>
+
+            <div class="container flex-row align-item-center wrap ">
+                <h2 class="roboto-font subtitle">About</h2>
+                <p class="Nutino-font title">Learn More <span class="color">About Us</span></p>
+                <p class="roboto-font para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, iste
+                    eaque animi reprehenderit, fugit vitae expedita obcaecati, exercitationem cupiditate corporis nemo
+                    quae sit excepturi? Ipsam veritatis inventore officia consequatur tempora.</p>
+                <div class=" card flex-col align-item-center text-align-center">
+                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quia? Doloremque iure
+                        molestiae
+                        non aut tempora, maiores quis at quisquam?</p>
+                    <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dolore iusto
+                        asperiores
+                        ipsam?
+                        Alias, sunt architecto. Deserunt minima excepturi suscipit.</p>
+                    <div class="check-point">
+                        <p>&#10003;Lorem ipsum dolor sit amet consectetur.</p>
+                        <p>&#10003;Lorem ipsum dolor sit amet.</p>
+                        <p>&#10003;Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <button class="red-btn">Learn More</button>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container flex-row align-item-center wrap ">
+
+                <h2 class="roboto-font subtitle">SERVICES</h2>
+                <p class="Nutino-font title">We do offer awesome <span class="color">Services</span></p>
+                <p class="roboto-font para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
+                    inventore numquam quibusdam culpa quos necessitatibus.</p>
+
+            </div>
+
+        </section>
+
+        <section>
+            <div class="container box  align-item-center justify-content-center text-align-center">
+                <div class="sr-card">
+                    <div class="card-logo-1">
+                        <img src="sr-card/sr-card-1.png" alt="sr-card-1">
+                    </div>
+                    <div class="para"><strong>Lorem, ipsum dolor.</strong></div>
+                    <div class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quia!</div>
+                </div>
+
+                <div class="sr-card">
+                    <div class="card-logo-2">
+                        <img src="sr-card/sr-card-2.png" alt="sr-card-2">
+                    </div>
+                    <div class="para"><strong>Lorem, ipsum dolor.</strong></div>
+                    <div class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quia!</div>
+                </div>
+
+                <div class="sr-card">
+                    <div class="card-logo-3">
+                        <img src="sr-card/sr-card-3.png" alt="sr-card-3">
+                    </div>
+                    <div class="para"> <strong>Lorem, ipsum dolor.</strong></div>
+                    <div class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quia!</div>
+                </div>
+
+                <div class="sr-card">
+                    <div class="card-logo-4">
+                        <img src="sr-card/sr-card-4.png" alt="sr-card-4">
+                    </div>
+                    <div class="para"><strong>Lorem, ipsum dolor.</strong></div>
+                    <div class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quia!</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container mini-box  align-item-center justify-content-center text-align-center">
+                <div class="mini-card ">
+                    <div class="sub-mini-card sr-card">
+                        <div class="mini-logo">
+                            <img src="mini-logo/mini-logo-1.png" alt="mini-logo-1">
+                        </div>
+                        <div class="para">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="sub-mini-card sr-card">
+                        <div class="mini-logo">
+                            <img src="mini-logo/mini-logo-2.png" alt="mini-logo-2">
+
+                        </div>
+                        <div class="para">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="sub-mini-card sr-card">
+                        <div class="mini-logo">
+                            <img src="mini-logo/mini-logo-3.jpg" alt="mini-logo-3">
+
+                        </div>
+                        <div class="para">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="sub-mini-card sr-card">
+                        <div class="mini-logo">
+                            <img src="mini-logo/mini-logo-4.png" alt="mini-logo-4">
+
+                        </div>
+                        <div class="para">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="sub-mini-card sr-card">
+                        <div class="mini-logo">
+                            <img src="mini-logo/mini-logo-5.png" alt="mini-logo-5">
+
+                        </div>
+                        <div class="para">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="sub-mini-card sr-card">
+                        <div class="mini-logo">
+                            <img src="mini-logo/mini-logo-6.jpg" alt="mini-logo-6">
+
+                        </div>
+                        <div class="para">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="sub-mini-card sr-card">
+                        <div class="mini-logo">
+                            <img src="mini-logo/mini-logo-7.jpg" alt="mini-logo-7">
+
+                        </div>
+                        <div class="para">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="sub-mini-card sr-card">
+                        <div class="mini-logo">
+                            <img src="mini-logo/mini-logo-8.jpg" alt="mini-logo-8">
+
+                        </div>
+                        <div class="para">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="sub-mini-card sr-card">
+                        <div class="mini-logo">
+                            <img src="mini-logo/mini-logo-9.jpg" alt="mini-logo-9">
+
+                        </div>
+                        <div class="para">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="sub-mini-card sr-card">
+                        <div class="mini-logo">
+                            <img src="mini-logo/mini-logo-10.jpg" alt="mini-logo-10">
+
+                        </div>
+                        <div class="para">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="sub-mini-card sr-card">
+                        <div class="mini-logo">
+                            <img src="mini-logo/mini-logo-11.jpg" alt="mini-logo-11">
+
+                        </div>
+                        <div class="para">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="sub-mini-card sr-card">
+                        <div class="mini-logo">
+                            <img src="mini-logo/mini-logo-12.jpg" alt="mini-logo-12">
+
+                        </div>
+                        <div class="para">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner-section">
+            <div class="banner">
+                <div class="banner-img">
+                    <img src="banner.jpg" alt="Another Banner">
+                </div>
+
+                <div class="hero-text banner-overlay">
+                    <div class="banner-text">
+                        <p>Call To Action</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum sapiente, quasi beatae
+                            blanditiis maiores tenetur placeat adipisci dolorum eius.</p>
+                        <button class="btn-1 ">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container flex-row align-item-center wrap ">
+                <div class="portfolio text-align-center">
+
+                    <h2 class="roboto-font subtitle">PORTFOLIO</h2>
+                    <p class="Nutino-font title">Check our<span class="color"> Portfolio</span></p>
+                    <p class="roboto-font para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore dolor
+                        adipisci similique ut, nostrum id.</p>
+                </div>
+
+                <div class="tabs flex-col btn">
+                    <button onclick="toggleTabs('portfolio-pic')" id="portfolio-pic" class="red-btn">All</button>
+                    <button onclick="toggleTabs('bike')" id="bike" class="red-btn">Bike</button>
+                    <button onclick="toggleTabs('car')" id="car" class="red-btn">Car</button>
+                    <button onclick="toggleTabs('walk')" id="walk" class="red-btn">Walk</button>
+                </div>
+
+                <div class=" portfolio-pic mini-card">
+                    <div class="bike mini-card">
+
+                        <div class=" sr-card pics sub-mini-card">
+                            <img src="bike/bike1.jpg" alt="bike">
+
+                        </div>
+                        <div class=" sr-card sub-mini-card">
+                            <img src="bike/bike2.jpg" alt="bike">
+
+                        </div>
+                        <div class=" sr-card sub-mini-card">
+                            <img src="bike/bike3.jpg" alt="bike">
+
+                        </div>
+                        <div class=" sr-card sub-mini-card">
+                            <img src="bike/bike4.jpg" alt="bike">
+
+                        </div>
+                    </div>
+
+                    <div class="car mini-card">
+
+
+                        <div class=" sr-card sub-mini-card">
+                            <img src="car/car1.jpg" alt="car">
+
+                        </div>
+
+                        <div class=" sr-card sub-mini-card">
+                            <img src="car/car2.jpg" alt="car">
+
+                        </div>
+
+                        <div class=" sr-card sub-mini-card">
+                            <img src="car/car3.jpg" alt="car">
+
+                        </div>
+
+                        <div class=" sr-card sub-mini-card">
+                            <img src="car/car4.jpg" alt="car">
+
+                        </div>
+                    </div>
+
+                    <div class="walk mini-card">
+
+                        <div class=" sr-card sub-mini-card">
+                            <img src="walk/walk1.jpg" alt="walk">
+
+                        </div>
+
+                        <div class=" sr-card sub-mini-card">
+                            <img src="walk/walk2.jpg" alt="walk">
+
+
+                        </div>
+
+                        <div class=" sr-card sub-mini-card">
+                            <img src="walk/walk3.jpg" alt="walk">
+
+                        </div>
+
+                        <div class=" sr-card sub-mini-card">
+                            <img src="walk/walk4.jpg" alt="walk">
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <section>
+            <div class="container flex-row align-item-center wrap ">
+                <div class="pricing text-align-center">
+
+                    <h2 class="roboto-font subtitle">PRICING</h2>
+                    <p class="Nutino-font title">Our Competing<span class="color"> Prices</span></p>
+                    <p class="roboto-font para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore dolor
+                        adipisci similique ut, nostrum id.</p>
+                </div>
+
+                <div class="price-details mini-card">
+                    <div class="fees flex-col sr-card sub-mini-card">
+                        <div class="subtitle">Basic</div>
+
+                        <div class="value flex-col">
+                            <h3>Free :</h3>
+                            <div class="pricing-value">$0/month</div>
+                        </div>
+                        <div class="details">
+                            <p>Lorem, ipsum.</p>
+                            <p>Lorem, ipsum dolor.</p>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <p><del>Lorem, ipsum dolor.</del></p>
+                            <p><del>Lorem, ipsum dolor.</del></p>
+                            <p><del>Lorem, ipsum dolor.</del></p>
+                        </div>
+                        <div class="btn">
+                            <button class="buy-btn red-btn">Free</button>
+                        </div>
+                    </div>
+                    <div class="fees sr-card sub-mini-card">
+                        <div class="subtitle">Recommended</div>
+                        <div class="value flex-col">
+                            <h3>Rider :</h3>
+                            <div class="pricing-value">$350/month</div>
+                        </div>
+                        <div class="details">
+                            <p>Lorem, ipsum.</p>
+                            <p>Lorem, ipsum dolor.</p>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <p>Lorem, ipsum dolor.</p>
+                            <p>Lorem, ipsum dolor.</p>
+                            <p><del>Lorem, ipsum dolor.</del></p>
+                        </div>
+                        <div class="btn">
+                            <button class="buy-btn red-btn">Buy Now</button>
+                        </div>
+                    </div>
+
+                    <div class="fees sr-card sub-mini-card">
+                        <div class="subtitle">Advanced</div>
+
+                        <div class="value flex-col">
+                            <h3>Race :</h3>
+                            <div class="pricing-value">$459/month</div>
+                        </div>
+                        <div class="details">
+                            <p>Lorem, ipsum.</p>
+                            <p>Lorem, ipsum dolor.</p>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <p>Lorem, ipsum dolor.</p>
+                            <p>Lorem, ipsum dolor.</p>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="btn">
+                            <button class="buy-btn red-btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container flex-row align-item-center wrap ">
+                <div class="FAQ text-align-center">
+
+                    <h2 class="roboto-font subtitle">F.A.Q</h2>
+                    <p class="Nutino-font title">Frequently Asked<span class="color"> Questions</span></p>
+
+                </div>
+
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span class="arrow">&#9662;</span>
+                            <span>Who can participate in the rider race?</span>
+                        </div>
+                        <div class="faq-answer">
+                            Anyone above 18 years old with a valid driving license can register.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span class="arrow">&#9662;</span>
+                            <span>Do I need to bring my own bike?</span>
+                        </div>
+                        <div class="faq-answer">
+                            Yes, participants are required to bring their own bikes and safety gear.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span class="arrow">&#9662;</span>
+                            <span>Is the riding course really free?</span>
+                        </div>
+                        <div class="faq-answer">
+                            Yes, the beginner-level course is completely free thanks to our sponsors.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span class="arrow">&#9662;</span>
+                            <span>What will I learn in the course?</span>
+                        </div>
+                        <div class="faq-answer">
+                            You'll learn bike control, safety protocols, basic maintenance, and traffic rules.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span class="arrow">&#9662;</span>
+                            <span>Do I need to have a bike to join the free learning sessions?</span>
+                        </div>
+                        <div class="faq-answer">
+                            Bikes and helmets are provided for training during the sessions.
+                            (first come first serve basis )
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span class="arrow">&#9662;</span>
+                            <span>Are certificates provided after the course?</span>
+                        </div>
+                        <div class="faq-answer">
+                            Yes, you'll receive a certificate of participation on successful completion.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span class="arrow">&#9662;</span>
+                            <span>Are there different race categories?</span>
+                        </div>
+                        <div class="faq-answer">
+                            Yes, races are divided by engine capacity and rider experience (Beginner, Intermediate,
+                            Pro).
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="container flex-row align-item-center wrap ">
+                <div class="FAQ text-align-center">
+
+                    <h2 class="roboto-font subtitle">TEAM</h2>
+                    <p class="Nutino-font title">Our Hardworking<span class="color"> Team</span></p>
+                    <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere vel est
+                        perspiciatis saepe sint consequatur ullam, quae nostrum earum ipsam.</p>
+
+
+                </div>
+                <div class=" portfolio-pic mini-card">
+                    <div class="team-pic mini-card">
+
+                        <div class=" team sr-card  sub-mini-card">
+                            <img src="team/batman.jpg" alt="team">
+                            <h2>Batman</h2> <br>
+                            <p>Rider</p>
+
+                        </div>
+                        <div class=" team sr-card sub-mini-card">
+                            <img src="team/captain.jpg" alt="team">
+                            <h2>Captain</h2> <br>
+                            <p>Trainer</p>
+
+                        </div>
+                        <div class=" team sr-card sub-mini-card">
+                            <img src="team/joker1.jpg" alt="team">
+                            <h2>Mr. Joker</h2> <br>
+                            <p>Racer</p>
+
+                        </div>
+                        <div class=" team sr-card sub-mini-card">
+                            <img src="team/ironman.jpg" alt="team">
+                            <h2>Ironman</h2> <br>
+                            <p>C.E.O</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container flex-row align-item-center wrap ">
+                <div class="text-align-center">
+
+                    <h2 class="roboto-font subtitle">CONTACT</h2>
+                    <p class="Nutino-font title">Contact <span class="color">Us</span></p>
+                    <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere vel est
+                        perspiciatis saepe sint consequatur ullam, quae nostrum earum ipsam.</p>
+
+
+                </div>
+                <div id="map"></div>
+
+                <div class="contact-details ">
+                    <div class="detail ">
+                        <div class="location data ">
+                            <h4>Location:</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                        <div class="email data">
+                            <h4>Email:</h4>
+                            <p>xyz@gmail.com</p>
+                        </div>
+                        <div class="call-detail data">
+                            <h4>Phone No:</h4>
+                            <p>4583853638</p>
+                        </div>
+                    </div>
+
+                    <div class="form-submit">
+                        <form action="submit" class="data">
+                            <input type="text" placeholder="Full Name" >
+                            <input type="text" placeholder="Contact No.">
+                            <input type="text" placeholder="Email">
+                            <input type="submit" name="Submit" class="red-btn">
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-div align-item-center">
+            <h1 class="foot-logo poppins-font">Tempo</h1>
+            <p class="foot-para roboto-font">
+               Join Our Newsletter <br>
+               Lorem ipsum dolor sit amet.
+            </p>
+            <button class="red-btn para">Subscribe</button>
+            <ul class="social-links">
+                <li><a href="#" target="_blank" aria-label="Facebook">Facebook</a></li>
+                <li><a href="#" target="_blank" aria-label="Instagram">Instagram</a></li>
+                <li><a href="#" target="_blank" aria-label="Twitter">Twitter</a></li>
+            </ul>
+        </div>
+        <div class="lower-footer justify-content-center align-item-center text-align-center">
+            <p class="poppins-font">Copyright Tempo 2022.All rights Reserved</p>
+            <p class="lower">Distributed By HTML TEMPLATES</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
